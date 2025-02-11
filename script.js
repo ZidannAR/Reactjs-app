@@ -6,8 +6,6 @@ const messages = [
        "coba pikirin lagi deh!",
        "kalau kamu bilang no aku sedih bgt 😞...",
        "asli sedih bgt ini mah...",
-       "I will be very very very sad...",
-       "Ok fine, I will stop asking...",
        "Just kidding, say yes please! ❤️"
    ];
    
