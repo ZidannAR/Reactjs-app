@@ -1,4 +1,4 @@
-<?php include_once ('submit.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +42,7 @@
     
 
   <script>
-    function handleYesClick() {
+   function handleYesClick() {
     fetch('submit.php', {
         method: 'POST',
     })
@@ -52,6 +52,8 @@
     })
     .catch(error => console.error('Error:', error));
 }
+
+
 
   </script>
       
