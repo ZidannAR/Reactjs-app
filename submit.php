@@ -15,11 +15,6 @@ if ($conn->connect_error) {
 // Insert data ke tabel
 $sql = "INSERT INTO coba (jawaban) VALUES ('Yes')";
 
-if ($conn->query($sql) === TRUE) {
-    echo "Data berhasil disimpan!";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
 
 // Tutup koneksi
 $conn->close();
