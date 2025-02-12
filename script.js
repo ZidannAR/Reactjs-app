@@ -20,6 +20,6 @@ const messages = [
        yesButton.style.fontSize = `${currentSize * 1.5}px`;
    }
    
-//    function handleYesClick() {
-//        window.location.href = "yes_page.html";
-//    }
+   function handleYesClick() {
+       window.location.href = "yes_page.html";
+   }
