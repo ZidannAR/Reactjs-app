@@ -8,47 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Will you be my Valentine?</h1>
-        <div class="buttons">
-            <button class="yes-button" onclick="handleYesClick()">Yes</button>
-            <button class="no-button" onclick="handleNoClick()">No</button>
-        </div>
+       
+    <div class="container" style="margin-top: 170px;">
         <div class="gif_container">
-            <img id="playButton" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
+              <a href="question.html">
+
+                     <img id="playButton" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
+              </a>
         </div>
-        <!-- <h3>Kucingnya di tap dulu</h3> -->
+        <h3>Kucingnya di tap dulu</h3>
     </div>
-    <audio id="musik" src="beabadoobee - Glue Song (Official Music Video).mp3" autoplay loop muted></audio>
-    <script>
-      document.getElementById("playButton").addEventListener("click", () => {
-    const musik = document.getElementById("musik");
-    musik.muted = false;
-    musik.play().catch(error => console.log("Autoplay gagal:", error));
-
-    // Simpan status agar musik tetap diputar setelah reload
-    localStorage.setItem("musicAllowed", "true");
-  });
-
-  // Jika sebelumnya musik sudah diizinkan, putar otomatis saat reload
-  window.onload = () => {
-    if (localStorage.getItem("musicAllowed")) {
-      const musik = document.getElementById("musik");
-      musik.muted = false;
-      musik.play().catch(error => console.log("Autoplay gagal:", error));
-    }
-  };
-    </script>
-    
-
- <script>
-  function handleYesClick() {
-       window.location.href = "yes_page.html";
-   }
- </script>
-      
-      
-      
-    <script src="script.js"></script>
 </body>
 </html>
