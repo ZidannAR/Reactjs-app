@@ -1,5 +1,5 @@
 const messages = [
-       "ini beneran ya?",
+       "ini beneran key?",
        "beneran??",
        "beneran gamau?",
        "yes aja please...",
