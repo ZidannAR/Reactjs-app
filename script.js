@@ -1,19 +1,19 @@
 const messages = [
-      "Is this for real?",
+      "beneran ruy?",
 
-"Really??",
+"benran?",
 
-"Are you sure you don’t want to?",
+"Kamu benran gamau ngomong sama aku ya?",
 
-"Just say yes, please...",
+"Kenapa ruy?",
 
-"Try thinking about it again!",
+"Anjirr beneran gamau ngomong lagi",
 
-"If you say no, I’ll be really sad 😞...",
+"sedih banget si ruy 😞...",
 
-"Honestly, I’d be super sad...",
+"aku bener bener se sedih itu...",
 
-"Just kidding, say yes please! ❤️",
+"kita ngobrol lagi ruy di dc ayoo dongg ❤️",
    ];
    
    let messageIndex = 0;
